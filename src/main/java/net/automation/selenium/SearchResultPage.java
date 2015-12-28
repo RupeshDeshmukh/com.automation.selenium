@@ -19,7 +19,7 @@ public class SearchResultPage {
     /**
      * Slf4j logger instance for logging.
      */
-    private static final transient Logger LOGGER = LoggerFactory.getLogger(SearchResultPage.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(SearchResultPage.class);
 
     private final WebDriver driver;
 
