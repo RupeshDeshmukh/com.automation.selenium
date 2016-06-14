@@ -1,6 +1,7 @@
 @requires_browser
 Feature: Enter a search in Google
 
+  # Simple scenario to test google search.
   Scenario: Search results should display the search term in the page title when pressing "enter"
     Given A Google search page
     When I enter the search term "Selenium"
